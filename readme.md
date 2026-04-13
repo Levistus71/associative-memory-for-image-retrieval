@@ -7,8 +7,8 @@ This project implements a Neural Associative Memory system designed to "store" i
 
 ## Beyond Parametric Memory
 Most current models (including LLMs) rely on Parametric Memory—knowledge baked into the weights of the model during training. This project implements Non-Parametric Memory, where the model learns how to access a database of information rather than just memorizing it. This allows the system to:
-    * Scale its knowledge without retraining the entire core network.
-    * Update its "worldview" simply by swapping out the contents of the memory bank.
+* Scale its knowledge without retraining the entire core network.
+* Update its "worldview" simply by swapping out the contents of the memory bank.
 
 ## LLM integration
 The most exciting aspect of this project is its role as a precursor to Augmented Language Models.
