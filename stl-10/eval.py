@@ -243,6 +243,8 @@ def plot_accuracy_scaling(memory_sizes=[256, 512, 1024, 2048, 4096, 8192]):
             
             bank_accuracies = []
             for i, (images, _) in enumerate(testloader):
+                if i >= 10:
+                    break
                 
                 images = images.to(device)
                 cues, _ = utils.generate_cue_batch(images)
